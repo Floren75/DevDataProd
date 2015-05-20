@@ -34,7 +34,10 @@ shinyUI(fluidPage(
         br(),
         p("For more details please check out my ",
           a("presentation.", 
-            href = "http://rpubs.com/Floren75/80753"))
+            href = "http://rpubs.com/Floren75/80753")),
+        p("You can find the server.R and ui.R files ",
+          a("here.", 
+            href = "https://github.com/Floren75/DevDataProd"))
     )
   )
 ))
